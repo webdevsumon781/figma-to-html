@@ -1,0 +1,241 @@
+@media only screen and (max-width: 720px) {
+    body {
+        box-sizing: border-box;
+        overflow-x: unset !important;
+    }
+    .container {
+        padding-left: 34px !important;
+    }
+    /* side bar start */
+    .l-navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 100%;
+        background: #FDFDFD;
+        border: 1px solid #E6E6E6;
+        box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.15);
+        border-radius: 15px 0px 0px 15px;
+        padding: 10px 0px !important;
+        transition: .5s;
+        z-index: 5000;
+    }
+  
+
+    .nav_logo img {
+        margin: 0px 0px 0px -15px;
+        width: 40px !important;
+        height: 46px !important;
+    }
+    .nav_list {
+        margin: 0px 0px 0px -13px !important;
+        width: 40px !important;
+        height: 46px !important;
+    }
+
+  
+    /* side bar clsoe */
+
+    /* header area start */
+    .hRight{
+        margin: 0px 0px 0px 0px !important;
+    }
+    .hRight h1 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 49px;
+        color: #555555;
+        margin: 0px 0px 0px 5px;
+    }
+    .infoArea {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -140px 0px 10px 0px !important;
+        position: absolute;
+    }
+    ul li a {
+        text-decoration: none;
+        text-align: left;
+        color: #555555;
+        font-size: 16px !important;
+        padding: 10px 0px;
+    }
+    /* header area close */
+
+    /* search area start */
+    .searchArea input {
+        height: 50px;
+        width: 100%;
+        border-radius: 25px;
+        background: #F4F6FA;
+        border: 1px solid #E1E1E1;
+        padding: 10px 50px 10px 40px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .filterArea {
+        position: absolute;
+        right: -5%;
+    }
+    /* search area close */
+    
+    /* filtertwo start  */
+    .bg-white.filterAreaTwo {
+        margin: -50px 0px -10px;
+        height: 170px;
+    }
+    .filterIcon {
+        margin: 30px 0px;
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+        height: 45px;
+        border-radius: 15px;
+        background-color: #FDFDFD;
+        border: 1px solid #E1E1E1;
+        position: relative;
+    }
+    .dropDown {
+        display: flex;
+        border-radius: 0px;
+        border-right: 1px solid #E1E1E1;
+        padding: 0px 10px 0px 0px;
+        margin: 10px 3px;
+        position: relative;
+    }
+    .filterContentTwo {
+        background: #ffffff;
+        box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.08);
+        width: 250px;
+        padding: 20px 0px;
+        border-radius: 5px;
+        position: absolute;
+        top: 80%;
+        margin: 20px 0px 0px 12px;
+        display: none;
+        z-index: 4000;
+    }
+
+    .innerButtonArea {
+        display: flex;
+        justify-content: start;
+        margin: 40px 0px;
+        position: absolute;
+        right: 50%;
+        bottom: -240%;
+    }
+    .innerButtonArea .btn {
+        height: 36px;
+        border-radius: 5px;
+        background: #3CA9ED;
+        border: none;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .innerButtonArea .btn span {
+        font-size: 18px;
+        border-right: 2px solid #fff;
+        padding-right: 15px;
+    }
+    .innerButtonArea .btn img {
+        padding: 0px 0px 0px 5px;
+        background: none !important;
+        width: 21px;
+    }
+
+    .jobField {
+        background: #ffffff;
+        box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.08);
+        width: 250px;
+        padding: 20px 0px;
+        border-radius: 5px;
+        position: absolute;
+        top: 60%;
+        margin: 20px 0px 0px 18px;
+        z-index: 5000;
+        display: none;
+    }
+ 
+    /* Filtertow close */
+
+    /* accordion area start */
+    section.accordionArea {
+        margin: 0px 0px 0px -20px !important;
+    }
+    .accordion-button::after {
+        position: absolute;
+        left: 55%;
+    }
+    .accordion-item {
+        width: 100%;
+        border-radius: 15px;
+        border: none !important;
+        background: transparent !important;
+        /* box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.08); */
+        margin: 10px 0px;
+    }
+    .accordion-body {
+        width: 100%;
+        height: unset !important;
+        position: relative;
+        padding: 0px !important;
+        background: #FDFDFD;
+    }
+    table.table {
+        margin: 20px 0px 0px -9px;
+        box-sizing: border-box;
+        width: 100%;
+        height: unset !important;
+        background: #FDFDFD;
+        border-left: 7px solid #CEECF6 !important;
+    
+    }
+    /* accordion area close */
+
+
+
+
+
+
+
+    /* exit start */
+    .exitArea {
+        position: absolute;
+        top: 79%;
+        left: 17%;
+    }
+    .card {
+        position: absolute;
+        width: 233px !important;
+        height: 190px !important;
+        background: #3CA9ED !important;
+        box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.08) !important;
+        border-radius: 15px !important;
+        padding: 20px 30px !important;
+    }
+
+    .cardBtn {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 20px 0px;
+    }
+    .approveBtn{
+        background: #FF9E9A;
+        margin: 20px 10px;
+    }
+    .declineBtn{
+        background: #30CA71;
+        margin: 20px 10px;
+    }
+    /* exit close */
+
+}
